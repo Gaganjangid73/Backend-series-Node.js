@@ -22,4 +22,4 @@ function multiplyfn(x, y) {
 }
 
 const c = multiplyfn(a, b);
-console.log("Multiplication is:", c);
+console.log( c);
