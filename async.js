@@ -6,6 +6,10 @@ console.log("Hello World");
 var a = 56;
 var b = 89;
 
+// fs.readFileSync("./file.txt", "utf-8"); // it block the main threat by doing this  for 100 ms or 10 ms or depending on the file size. 
+// console.log(" ");
+
+
 https.get("https://dummyjson.com/products/1", (res) => {
     console.log("Fetched data succesfully");
 });
