@@ -1,6 +1,7 @@
 const fs= require("fs");
 const crypto = require("crypto");
 
+// here we can change the size of thrread pool 
 process.env.UV_THREADPOOL_SIZE = 1;
 
 crypto.pbkdf2("password","salt", 500000,50,"sha512", (err, key)=>{
