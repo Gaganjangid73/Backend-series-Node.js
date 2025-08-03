@@ -1,0 +1,20 @@
+const fs= require("fs");
+const crypto = require("crypto");
+
+process.env.UV_THREADPOOL_SIZE = 1;
+
+crypto.pbkdf2("password","salt", 500000,50,"sha512", (err, key)=>{
+    console.log("1- cryptopbddf2 done");
+});
+crypto.pbkdf2("password","salt", 500000,50,"sha512", (err, key)=>{
+    console.log("2- cryptopbddf2 done");
+});
+crypto.pbkdf2("password","salt", 500000,50,"sha512", (err, key)=>{
+    console.log("3- cryptopbddf2 done");
+});
+crypto.pbkdf2("password","salt", 500000,50,"sha512", (err, key)=>{
+    console.log("4- cryptopbddf2 done");
+});
+crypto.pbkdf2("password","salt", 500000,50,"sha512", (err, key)=>{
+    console.log("5- cryptopbddf2 done");
+});
