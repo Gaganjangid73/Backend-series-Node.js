@@ -27,8 +27,15 @@ fs.readFile("./file.txt", "utf8", (err, data)=>{
 function multiplyfn(x,y){
     const result = a*b;
    return result;
+   // whatever i do in this code 
+   // this 
 }
+const  varivale = () => {
 
+const add =  X * Y;
+const multi = X +  Y;
+
+}
 var c = multiplyfn(a,b);
 
 console.log("multiplication result is :", c);
